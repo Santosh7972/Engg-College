@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Engineering College Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Libre Baskerville', serif;
+      }
+      header {
+        background-color: #1a0027;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 36px;
+        font-weight: normal;
+      }
+      nav {
+        background-color: #f2f2f2;
+        padding: 10px;
+        overflow: auto;
+      }
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+      }
+      nav li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      nav a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+      }
+      nav a:hover {
+        background-color: #666;
+        color: #fff;
+      }
+      section {
+        margin: 20px;
+      }
+      section h2 {
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0 0 10px;
+      }
+      section p {
+        margin: 0 0 10px;
+      }
+
+      /* about */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .image-container {
+        flex: 1;
+        margin-right: 20px;
+      }
+      .image-container img {
+        max-width: 100%;
+        height: 80%;
+        border-radius: 4px;
+        margin-top: 30px;
+      }
+      .content-container {
+        flex: 2;
+        margin-left: 20px;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      ul {
+        margin-bottom: 20px;
+      }
+      li {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+
+      /* Department img */
+      #department{
+        display: flex;
+      }
+
+      #department img{
+        width: 300px;
+        height: 250px;
+        margin-left: 90px;
+      }
+
+      /* form */
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      label {
+        font-weight: bold;
+      }
+
+      .weight {
+        font-weight: 600;
+        font-family: Arial, sans-serif;
+      }
+
+      header img{
+        width: 80px;
+        height: 80px;
+      }
+
+      /* footer */
+      .engineering-college-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.engineering-college-footer p {
+  margin: 0;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+    <header>
+      <img src="logo.jpg" alt="">
+      <h1>JSPM Engineering College</h1>
+    </header>
+  </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#department">Department</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#placement">Placement</a></li>
+        <li><a href="#contact us">Contact us</a></li>
+      </ul>
+    </nav>
+    <section id="about">
+      <h1 class="weight"><b>About Us :</h1>
+      <div class="container">
+        <div class="image-container">
+          <img src="bg.jpg" alt="JSPM Engineering College" />
+        </div>
+        <div class="content-container">
+          <p>
+            JSPM Engineering College was established in 2011 and has since then
+            been at the forefront of engineering education in the region. We
+            offer undergraduate and graduate degree programs in a variety of
+            engineering disciplines.
+          </p>
+          <ul>
+            <li>Ranked among the top 10 engineering colleges in the country</li>
+            <li>State-of-the-art facilities and equipment</li>
+            <li>Experienced and dedicated faculty members</li>
+            <li>
+              Strong industry partnerships for internships and job placements
+            </li>
+          </ul>
+          <p>
+            Our mission is to provide our students with a comprehensive
+            education in engineering that prepares them for successful careers
+            and lifelong learning.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <hr>
+    <section id="department">
+      <div class="dept">
+      <h1 class="weight">Department :</h1>
+      <ul>
+        <li>Computer Engineering</li>
+        <li>Electrical Engineering</li>
+        <li>Mechanical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Chemical Engineering</li>
+      </ul>
+    </div>
+    <div class="img">
+      <img src="d1.jpg" alt="">
+      <img src="d2.jpg" alt="">
+      <img src="d4.jpg" alt="">
+    </div>
+    </section>
+    <hr>
+    <hr>
+    <section id="faculty">
+      <h1 class="weight">Faculty :</h1>
+      <p>
+        <li>In-depth knowledge of engineering concepts and principles relevant to
+          their field of expertise.</li> 
+          <li>Familiarity with modern tools, techniques,
+          and technologies used in engineering, such as CAD software, simulation
+          tools, and programming languages.</li> 
+          <li>Ability to design and teach courses
+          that cover foundational and advanced engineering topics, as well as to
+          assess student learning and provide feedback.</li> 
+          <li>Knowledge of research
+          methods and ability to conduct original research that contributes to the
+          field of engineering.</li> 
+          <li>Ability to publish research papers in respected
+          academic journals, as well as to present research findings at
+          conferences and seminars.</li> 
+          <li>Familiarity with funding opportunities and
+          ability to write successful grant proposals to support their research.</li>
+          <li>Ability to collaborate with other faculty members and professionals
+          from industry, government, or academia to advance the field of
+          engineering.</li> 
+          <li>Understanding of ethical and professional standards in
+          engineering, as well as ability to teach these concepts to students.
+          9Familiarity with emerging trends and challenges in engineering, such
+          as sustainability, globalization, and digital transformation.</li> 
+          <li>Ability to mentor and advise students, as well as to provide career
+          guidance and support.</li>
+      </p>
+    </section>
+    <hr>
+    <hr>
+    <section id="research">
+      <h1 class="weight">Research :</h1>
+      <p>
+        <li>Engineering college faculty conduct research in various areas of
+          engineering, such as mechanical, electrical, civil, chemical, and
+          aerospace engineering.</li> 
+          <li>Research is often funded by government
+          agencies, private foundations, or industry partners. C. Faculty publish
+          research papers in respected academic journals, as well as present their
+          findings at conferences and seminars.</li> 
+          <li>Research is often
+          interdisciplinary, involving collaborations with other faculty members,
+          professionals from industry, or researchers from other institutions.</li> 
+          <li>The results of research often contribute to the development of new
+          technologies, products, and systems, as well as to the advancement of
+          engineering knowledge.</li>
+      </p>
+    </section>
+    <hr>
+    <hr>
+    <section id="placement">
+      <h1 class="weight">Placement :</h1>
+      <p>
+        <li>Engineering colleges often have career services offices that help
+          students prepare for and find employment after graduation.</li> 
+          <li>Placement
+          opportunities are available in various industries, including
+          manufacturing, construction, telecommunications, energy, and aerospace.</li>
+          <li>Engineering colleges often have partnerships with industry partners,
+          providing students with internships, co-op experiences, and other
+          work-based learning opportunities. </li>
+          <li>Engineering college graduates are
+          often in high demand due to their technical skills, problem-solving
+          abilities, and ability to work in teams.</li> 
+          <li>Graduates of engineering
+          colleges often hold positions such as design engineer, process engineer,
+          research engineer, project engineer, or systems engineer.</li> 
+          <li>Salaries for
+          engineering college graduates are often higher than the average for
+          other professions.</li> 
+          <li>Overall, engineering colleges play a critical role
+          in advancing engineering knowledge, preparing students for successful
+          careers in engineering, and contributing to the economic development of
+          local and global communities.</li>
+      </p>
+    </section>
+    <hr>
+    <hr>
+    <section id="contact us">
+      <h1 class="weight">Contact Us :</h1>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name.." />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email.."
+        />
+
+        <label for="subject">Subject</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Subject.."
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    <footer class="engineering-college-footer">
+      
+        
+          <div class="col-md-6">
+            <p>&copy; Created by Santosh Doiphode..!!</p>
+          </div>
+        
+      
+    </footer>
+    
+  </body>
+</html>
